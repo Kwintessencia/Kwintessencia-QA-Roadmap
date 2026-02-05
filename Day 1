@@ -1,57 +1,71 @@
-📚 **Day 1 Plan – Software Testing Fundamentals
+# Day 1 Study Plan – Software Testing Fundamentals
+*Date: Monday, February 5, 2026*  
+**Goal:** Complete Day 1 of the QA/Testing roadmap  
+**Time Allocated:** ~2 hours
 
-Monday, Feb 5, 2026
-Estimated time: 2 h
+---
 
-🕤 9:45–10:00 — Warm‑up / Check‑in
+## 🕤 **Plan Overview**
+✅ Use this guide. Check off (☑️) each completed task.
 
-Review this plan and get set up.
+---
+### 1️⃣ Warm‑up
+| Time        | Task |
+| ----------- | --------------------------------------------- |
+| **10 min**  | ✅ Watch “[Software Testing in 10 min](https://www.youtube.com/watch?v=1247BX6FOic) ” |
+|             | In your own words, how does “quality” relate to QA work?<br>*Example: “Quality means the software does what’s promised, does it well, & doesn’t cause errors for the user.”* |
 
-① Warm‑up with a video (10 min)
+---
+### 2️⃣ Coursera – "Software Testing Foundations"
+| Time        | Task |
+| ----------- | ---- |
+| **30‑45 min** | *Continue your course:* “Foundations of Software Testing & Validation” – Module 1.<br>Key questions to answer:<br>1. What is the difference between **QA vs QC**?<br>2. List 3‑4 ways testing fits into the *Software Development Life Cycle (SDLC)*. |
 
-🎬 Software Testing Complete Tutorial in 10 Mins (https://www.youtube.com/watch?v=1247BX6FOic) – a quick tour of the world of testing.
-Take 2‑3 notes on what "quality" means for a QA engineer.
+---
+### 3️⃣ Hands‑on Practice
+**SauceDemo.com – Manual Test Cases**  
+(1) Login: `standard_user` · Password: `secret_sauce`
 
-② Course time – your Coursera module (30–45 min)
+Write your test cases **on any sheet** or in this file below.
 
-Continue with the Coursera course “Foundations of Software Testing & Validation.” Complete the first module (or the current week). Jot down any points you find new or tricky.
+| Test case | Steps (what you did) & Expected result |
+| :--- | :--- |
+| **Valid Login** | 1. Open `https://www.saucedemo.com`<br>2. Enter the username above, then the password.<br>3. Click “LOGIN”. |
+| | *Expected*: User is logged in, shown the product page. |
+| **Wrong Password** | 1. Enter username above, password “wrong”.<br>2. Click “LOGIN”. |
+| | *Expected*: Login fails, error message appears. |
 
-③ Hands‑on practice (20 min)
+---
+### 4️⃣ Community Onboarding (15 min)
+- [ ] **Reddit: Join** [r/softwaretesting](https://reddit.com/r/softwaretesting), then comment on 1 question.
+- [ ] **Ministry of Testing:**  [Sign up (free)](https://club.ministryoftesting.com/signup). Read 1 article on the community forum that interests you.
 
-Go to SauceDemo (https://www.saucedemo.com/) – a safe, public demo site.
-Write two manual test cases for its login page:
+---
+### 5️⃣ Daily Wrap‑Up (5 min)
+In a few sentences, think about:
 
-1. A successful login with valid credentials.
-2. A login attempt with a wrong password.
-Example format of a test case you can copy:
+*One concept I understood best:*
 
-ID: TC‑LOGIN‑001
-Title: Valid credentials login
-Steps:
+*One question I’d ask a senior QA tester:*
 
-1. Navigate to SauceDemo.
-2. Enter username standard_user.
-3. Enter password secret_sauce.
-4. Click LOGIN.
-Expected result: User is redirected to the /inventory page.
+---
+## ✅ **Final Checkpoint – Mark as done**
+- [ ] ✅ 10‑min video & note on “quality”.
+- [ ] ✅ Coursera, Module 1: QA vs. QC, SDLC & role of a tester.
+- [ ] ✅ Wrote 2 test cases for SauceDemo.
+- [ ] ✅ Joined r/softwaretesting and MoT community.
+- [ ] ✅ Jotted wrap‑up notes above.
 
-Write your two test cases in any format you like.
+---
 
-④ Join two communities (15 min)
+### Quick Notes
+- Save this file, or pin it as a tab. Update the checkmarks (✅ → when done).
+- Tomorrow we review SDLC and test‑case design techniques.
 
-1. Reddit – Join r/softwaretesting and introduce yourself.
-2. Ministry of Testing – Sign up for free (https://club.ministryoftesting.com/signup) and bookmark their discourse (https://club.ministryoftesting.com/).
-Browse for 5 minutes and find one post that interests you.
-⑤ Journal entry (optional, but recommended) (5 min)
+---
+> “Software testing is not just a job; it’s a mindset—keep asking, keep checking.”
 
-• One thing you understood best from today’s module/video.
-• One question you’d ask a senior tester.
-📝 Quick Check ✅
+---
 
-Check off as you go:
+*Plan version 1.0 | Created from your QA roadmap, tailored for 2026‑02‑05.*
 
-• [ ] 10‑minute video watched
-• [ ] Coursera module current/weekly content ✅
-• [ ] 2 test cases written for SauceDemo
-• [ ] Joined r/softwaretesting and Ministry of Testing
-• [ ] Log entry with 1 thing learned + 1 question
