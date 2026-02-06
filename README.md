@@ -23,5 +23,5 @@ Completing Coursera course while practicing test case writing on SauceDemo.
 
 ## Connect With Me
 
-- Ministry of Testing: [Your username]
-- LinkedIn: [Your profile]
+- Ministry of Testing: Kwintessencia
+- LinkedIn: www.linkedin.com/in/kwintessencia
