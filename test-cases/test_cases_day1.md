@@ -1,0 +1,6 @@
+
+| Test Case ID | Title            | Steps                                                                                                                               | Expected Result                   |
+| ------------ | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
+| TC-LOGIN-001 | Valid Login      | 1. Navigate to https://www.saucedemo.com<br>2. Enter username "standard_user"<br>3. Enter password "secret_sauce"<br>4. Click Login | User redirected to inventory page |
+| TC-LOGIN-002 | Invalid Username | 1. Use "invalid_user"<br>2. Valid password<br>3. Click Login                                                                        | Error message displayed           |
+| TC-LOGIN-003 | Invalid Password | 1. Valid username<br>2. Wrong password<br>3. Click Login                                                                            | Error message displayed           |
